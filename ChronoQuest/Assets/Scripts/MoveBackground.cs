@@ -8,22 +8,19 @@ public class MoveBackground : MonoBehaviour
     Transform cameraTransform;
     public float startPositionX;
     public float spriteWidth;
+    public float scale;
+    public float startPositionY;
     //public float relativeCameraPositionX;
     //public float relativeDistanceX;
 
     void Start()
     {
         cameraTransform = Camera.main.transform;
-        startPositionX= transform.position.x; 
+        startPositionX = transform.position.x; 
+        startPositionX = transform.position.y; 
         spriteWidth = GetComponent<SpriteRenderer>().sprite.bounds.size.x;
-        //print($"spriteWidth: {spriteWidth}");
-        //print($"rect: {GetComponent<SpriteRenderer>().sprite.rect}");
-        //print($"textureWidth: {GetComponent<SpriteRenderer>().sprite.texture.width}");
-        //print($"screen Width: {Screen.width}");
-        //print($"rect: {GetComponent<SpriteRenderer>().sprite.rect}");
-        //print($"rect: {GetComponent<SpriteRenderer>().sprite.rect}");
-        //print($"rect: {GetComponent<SpriteRenderer>().sprite.rect}");
-        //print($"rect: {GetComponent<SpriteRenderer>().sprite.rect}");
+        scale = transform.localScale.x;
+        spriteWidth *= scale;
 
     }
 
