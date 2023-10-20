@@ -29,6 +29,7 @@ public class MoveBackground : MonoBehaviour
         float relativeDistanceX = cameraTransform.position.x * parallaxSpeedX;
         transform.position = new Vector3( startPositionX + relativeDistanceX, 0, 0 );
 
+
         float relativeCameraPositionX = cameraTransform.position.x - relativeDistanceX;
         if (relativeCameraPositionX > startPositionX + spriteWidth)
         {
