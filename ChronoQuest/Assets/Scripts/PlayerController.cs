@@ -3,8 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting.FullSerializer;
 using UnityEditor;
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
 
@@ -19,6 +21,9 @@ public class PlayerController : MonoBehaviour
     Vector2 moveInput;
 
     public bool IsMoving { get; private set; }
+    private string mainUI = "StartMenu";
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -65,4 +70,13 @@ public class PlayerController : MonoBehaviour
             Grounded = true;
         }
     }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("DeathObj"))
+        {
+            SceneManager.LoadScene(mainUI);
+        }
+    }
+
 }
