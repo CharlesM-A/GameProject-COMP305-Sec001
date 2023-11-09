@@ -24,7 +24,7 @@ public class MoveBackground : MonoBehaviour
 
     }
 
-    void Update()
+    void FixedUpdate()
     {
         float relativeDistanceX = cameraTransform.position.x * parallaxSpeedX;
         transform.position = new Vector3( startPositionX + relativeDistanceX, 0, 0 );
