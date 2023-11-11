@@ -372,6 +372,7 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/bullet.cs"
 "Assets/Cainos/Common/Script/Utils/SecondOrderDynamics.cs"
 "Assets/Cainos/Pixel Art Platformer - Village Props/Script/BoundingPlatform.cs"
 "Assets/Cainos/Pixel Art Platformer - Village Props/Script/Chest.cs"
@@ -424,6 +425,7 @@
 "Assets/Scripts/StarParticleMovement.cs"
 "Assets/Scripts/Wall_DeathZone.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs"
+"Assets/weapon.cs"
 -langversion:9.0
 
 /deterministic

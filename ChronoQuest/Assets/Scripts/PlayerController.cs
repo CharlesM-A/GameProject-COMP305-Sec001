@@ -56,6 +56,16 @@ public class PlayerController : MonoBehaviour
     {
         moveInput = context.ReadValue<Vector2>();
         IsMoving = moveInput != Vector2.zero;
+
+        if (moveInput.x < 0)
+        {
+            transform.eulerAngles = new Vector3(0, 180, 0);
+        }
+        else if (moveInput.x > 0) 
+        {
+            transform.eulerAngles = new Vector3(0, 0, 0);
+        }
+
         print(moveInput);
     }
 
