@@ -418,6 +418,7 @@
 "Assets/Scripts/MoveWithPhysics.cs"
 "Assets/Scripts/ObjectiveUpdater.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/playermovement2.cs"
 "Assets/Scripts/SceneManagerScript.cs"
 "Assets/Scripts/Scroller.cs"
 "Assets/Scripts/StarParticleMovement.cs"

@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviour
         {
             print("jumped1");
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+            GetComponent<AudioSource>().Play();
         }
 
         if (context.canceled && rb.velocity.y > 0f)
