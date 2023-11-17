@@ -9,6 +9,7 @@ public class ObjectiveUpdater : MonoBehaviour
     public TMP_Text text;
     public int CratesLeft;
     GameObject[] Crates;
+    public GameObject Portal;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,10 @@ public class ObjectiveUpdater : MonoBehaviour
         UpdateCrates();
         string tex = $"Objective:\nDestroy Explosives: {CratesLeft}/3";
         text.text = tex;
+        if(CratesLeft == 0)
+        {
+            Portal.SetActive(true);
+        }
     }
 
     //void SetScore()
@@ -35,7 +40,7 @@ public class ObjectiveUpdater : MonoBehaviour
     {
         Crates = GameObject.FindGameObjectsWithTag("Crate");
         CratesLeft = Crates.GetLength(0);
-        Debug.Log(CratesLeft);
+        // Debug.Log(CratesLeft);
         //SetScore();
     }
 }

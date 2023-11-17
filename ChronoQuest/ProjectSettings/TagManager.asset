@@ -6,6 +6,8 @@ TagManager:
   tags:
   - DeathObj
   - Crate
+  - Portal
+  - Enemy
   layers:
   - Default
   - TransparentFX
