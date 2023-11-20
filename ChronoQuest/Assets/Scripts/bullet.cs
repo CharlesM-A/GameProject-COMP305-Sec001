@@ -6,7 +6,7 @@ public class bullet : MonoBehaviour
 {
     public float speed = 20f;
     public Rigidbody2D rb;
-    public int damage = 3;
+    // public int damage = 2;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,11 @@ public class bullet : MonoBehaviour
 
         if (collision.CompareTag("Enemy"))
         {
-            collision.GetComponent<SlimeHit>().takeDamage(damage);
+            collision.GetComponent<SlimeHit>().takeDamage(3);
+        }
+        if (collision.CompareTag("Boss"))
+        {
+            collision.GetComponent<VultureBoss>().takeDamage(2);
         }
     }
 
