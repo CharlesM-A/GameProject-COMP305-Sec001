@@ -13063,7 +13063,7 @@ IL_0291:
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_152;
 		L_152 = SpriteAsset_get_spriteSheet_mC53205114A12A79F7495FA5F5EFC9948F151256B(L_151, NULL);
 		int32_t L_153;
-		L_153 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_152);
+		L_153 = VirtualFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_152);
 		TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA* L_154 = __this->___m_CachedTextElement_75;
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_155;
 		L_155 = TextElement_get_glyph_m101DBCCA0CDE2461B504174272A2FFCD53EA59E2(L_154, NULL);
@@ -13076,7 +13076,7 @@ IL_0291:
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_159;
 		L_159 = SpriteAsset_get_spriteSheet_mC53205114A12A79F7495FA5F5EFC9948F151256B(L_158, NULL);
 		int32_t L_160;
-		L_160 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_159);
+		L_160 = VirtualFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_159);
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_5), ((float)(((float)L_150)/((float)L_153))), ((float)(((float)L_157)/((float)L_160))), NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_161 = V_5;
 		float L_162 = L_161.___x_0;
@@ -13100,7 +13100,7 @@ IL_0291:
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_172;
 		L_172 = SpriteAsset_get_spriteSheet_mC53205114A12A79F7495FA5F5EFC9948F151256B(L_171, NULL);
 		int32_t L_173;
-		L_173 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_172);
+		L_173 = VirtualFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_172);
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_6), L_162, ((float)(((float)((int32_t)il2cpp_codegen_add(L_166, L_170)))/((float)L_173))), NULL);
 		TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA* L_174 = __this->___m_CachedTextElement_75;
 		Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* L_175;
@@ -13122,7 +13122,7 @@ IL_0291:
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_183;
 		L_183 = SpriteAsset_get_spriteSheet_mC53205114A12A79F7495FA5F5EFC9948F151256B(L_182, NULL);
 		int32_t L_184;
-		L_184 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_183);
+		L_184 = VirtualFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_183);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_185 = V_6;
 		float L_186 = L_185.___y_1;
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_7), ((float)(((float)((int32_t)il2cpp_codegen_add(L_177, L_181)))/((float)L_184))), L_186, NULL);

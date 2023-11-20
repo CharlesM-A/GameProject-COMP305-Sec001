@@ -10722,7 +10722,7 @@ IL_0263:
 		int32_t L_88 = L_87;
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_89 = (L_86)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_88));
 		int32_t L_90;
-		L_90 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_89);
+		L_90 = VirtualFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_89);
 		if (!L_90)
 		{
 			goto IL_028e;
@@ -10734,7 +10734,7 @@ IL_0263:
 		int32_t L_93 = L_92;
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_94 = (L_91)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_93));
 		int32_t L_95;
-		L_95 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_94);
+		L_95 = VirtualFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_94);
 		G_B45_0 = ((((int32_t)L_95) == ((int32_t)0))? 1 : 0);
 		goto IL_028f;
 	}
@@ -11562,7 +11562,7 @@ IL_0268:
 		int32_t L_88 = L_87;
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_89 = (L_86)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_88));
 		int32_t L_90;
-		L_90 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_89);
+		L_90 = VirtualFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_89);
 		if (!L_90)
 		{
 			goto IL_0293;
@@ -11574,7 +11574,7 @@ IL_0268:
 		int32_t L_93 = L_92;
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_94 = (L_91)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_93));
 		int32_t L_95;
-		L_95 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_94);
+		L_95 = VirtualFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_94);
 		G_B44_0 = ((((int32_t)L_95) == ((int32_t)0))? 1 : 0);
 		goto IL_0294;
 	}
@@ -12144,7 +12144,7 @@ IL_00ed:
 		int32_t L_42 = L_41;
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_43 = (L_40)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_42));
 		bool L_44;
-		L_44 = VirtualFuncInvoker0< bool >::Invoke(8 /* System.Boolean UnityEngine.Texture::get_isReadable() */, L_43);
+		L_44 = VirtualFuncInvoker0< bool >::Invoke(11 /* System.Boolean UnityEngine.Texture::get_isReadable() */, L_43);
 		V_10 = (bool)((((int32_t)L_44) == ((int32_t)0))? 1 : 0);
 		bool L_45 = V_10;
 		if (!L_45)
@@ -12196,7 +12196,7 @@ IL_0166:
 		int32_t L_65 = L_64;
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_66 = (L_63)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_65));
 		int32_t L_67;
-		L_67 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_66);
+		L_67 = VirtualFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_66);
 		if (!L_67)
 		{
 			goto IL_0191;
@@ -12208,7 +12208,7 @@ IL_0166:
 		int32_t L_70 = L_69;
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_71 = (L_68)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_70));
 		int32_t L_72;
-		L_72 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_71);
+		L_72 = VirtualFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_71);
 		G_B23_0 = ((((int32_t)L_72) == ((int32_t)0))? 1 : 0);
 		goto IL_0192;
 	}
@@ -13064,7 +13064,7 @@ IL_0015:
 		int32_t L_5 = L_4;
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_6 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
 		int32_t L_7;
-		L_7 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_6);
+		L_7 = VirtualFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_6);
 		if (!L_7)
 		{
 			goto IL_0040;
@@ -13076,7 +13076,7 @@ IL_0015:
 		int32_t L_10 = L_9;
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_11 = (L_8)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10));
 		int32_t L_12;
-		L_12 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_11);
+		L_12 = VirtualFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_11);
 		G_B5_0 = ((((int32_t)L_12) == ((int32_t)0))? 1 : 0);
 		goto IL_0041;
 	}
@@ -13889,7 +13889,7 @@ IL_0044:
 		V_0 = L_19;
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_20 = V_0;
 		bool L_21;
-		L_21 = VirtualFuncInvoker0< bool >::Invoke(8 /* System.Boolean UnityEngine.Texture::get_isReadable() */, L_20);
+		L_21 = VirtualFuncInvoker0< bool >::Invoke(11 /* System.Boolean UnityEngine.Texture::get_isReadable() */, L_20);
 		V_6 = (bool)((((int32_t)L_21) == ((int32_t)0))? 1 : 0);
 		bool L_22 = V_6;
 		if (!L_22)
@@ -13921,7 +13921,7 @@ IL_009d:
 	{
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_27 = V_0;
 		int32_t L_28;
-		L_28 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_27);
+		L_28 = VirtualFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_27);
 		int32_t L_29 = __this->___m_AtlasWidth_26;
 		if ((!(((uint32_t)L_28) == ((uint32_t)L_29))))
 		{
@@ -13931,7 +13931,7 @@ IL_009d:
 	{
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_30 = V_0;
 		int32_t L_31;
-		L_31 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_30);
+		L_31 = VirtualFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_30);
 		int32_t L_32 = __this->___m_AtlasHeight_27;
 		G_B15_0 = ((((int32_t)((((int32_t)L_31) == ((int32_t)L_32))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		goto IL_00bf;

@@ -8467,7 +8467,7 @@ IL_0063:
 	{
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_52 = __this->___m_Image_9;
 		int32_t L_53;
-		L_53 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_52);
+		L_53 = VirtualFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_52);
 		if ((((int32_t)L_53) <= ((int32_t)0)))
 		{
 			goto IL_022c;
@@ -8476,7 +8476,7 @@ IL_0063:
 	{
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_54 = __this->___m_Image_9;
 		int32_t L_55;
-		L_55 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_54);
+		L_55 = VirtualFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_54);
 		if ((((int32_t)L_55) <= ((int32_t)0)))
 		{
 			goto IL_022c;
@@ -8504,12 +8504,12 @@ IL_0063:
 		L_58 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8((&V_0), NULL);
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_59 = __this->___m_Image_9;
 		int32_t L_60;
-		L_60 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_59);
+		L_60 = VirtualFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_59);
 		float L_61;
 		L_61 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9((&V_0), NULL);
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_62 = __this->___m_Image_9;
 		int32_t L_63;
-		L_63 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_62);
+		L_63 = VirtualFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_62);
 		V_5 = ((float)(((float)il2cpp_codegen_multiply(L_58, ((float)L_60)))/((float)il2cpp_codegen_multiply(L_61, ((float)L_63)))));
 		// switch (m_Aspect)
 		int32_t L_64 = __this->___m_Aspect_10;
