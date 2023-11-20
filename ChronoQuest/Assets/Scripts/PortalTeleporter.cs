@@ -11,8 +11,10 @@ public class PortalTeleporter : MonoBehaviour
     {
         if(col.CompareTag("Player"))
         {
+            Debug.Log("Player Hit portal");
             SceneManager.LoadScene(sceneToIndex, LoadSceneMode.Single);
         }
+        Debug.Log("Hit portal");
     }
     
 }

@@ -8,6 +8,8 @@ TagManager:
   - Crate
   - Portal
   - Enemy
+  - bullet
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -53,6 +55,9 @@ TagManager:
     locked: 0
   - name: Clouds
     uniqueID: 3186052497
+    locked: 0
+  - name: Front-background
+    uniqueID: 581632667
     locked: 0
   - name: Ground
     uniqueID: 1569468887

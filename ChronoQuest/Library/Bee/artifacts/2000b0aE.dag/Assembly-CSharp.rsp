@@ -103,6 +103,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -311,8 +312,11 @@
 -r:"C:/Users/selva/Documents/GitHub/GameProject-COMP305-Sec001/ChronoQuest/Library/PackageCache/com.unity.burst@1.7.3/Unity.Burst.Unsafe.dll"
 -r:"C:/Users/selva/Documents/GitHub/GameProject-COMP305-Sec001/ChronoQuest/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"C:/Users/selva/Documents/GitHub/GameProject-COMP305-Sec001/ChronoQuest/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/2000b0aE.dag/AstarPathfindingProject.ref.dll"
+-r:"Library/Bee/artifacts/2000b0aE.dag/AstarPathfindingProjectEditor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/com.unity.cinemachine.editor.ref.dll"
+-r:"Library/Bee/artifacts/2000b0aE.dag/PackageToolsEditor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/PPv2URPConverters.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/PsdPlugin.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.2D.Animation.Editor.ref.dll"
@@ -414,6 +418,7 @@
 "Assets/Scripts/bullet.cs"
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/Crate.cs"
+"Assets/Scripts/FinalLevel.cs"
 "Assets/Scripts/floatingHealthBar.cs"
 "Assets/Scripts/MoveBackground.cs"
 "Assets/Scripts/MoveCamera.cs"
@@ -428,6 +433,7 @@
 "Assets/Scripts/Scroller.cs"
 "Assets/Scripts/SlimeHit.cs"
 "Assets/Scripts/StarParticleMovement.cs"
+"Assets/Scripts/VultureBoss.cs"
 "Assets/Scripts/Wall_DeathZone.cs"
 "Assets/Scripts/weapon.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

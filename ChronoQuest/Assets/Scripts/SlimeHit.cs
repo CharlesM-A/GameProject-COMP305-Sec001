@@ -13,6 +13,7 @@ public class SlimeHit : MonoBehaviour
     [SerializeField] Rigidbody2D rb;
 
     [SerializeField] floatingHealthBar healthBar;
+    [SerializeField] ObjectiveLevelTwo EnemyObjective;
     private Animator anim;
     private Collider2D coll;
     public int damage;
@@ -20,6 +21,7 @@ public class SlimeHit : MonoBehaviour
     public int maxHealth = 10;
     public int health;
     private bool facingLeft = true;
+    
     
     private void Awake()
     {
